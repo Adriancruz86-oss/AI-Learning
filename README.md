@@ -103,3 +103,43 @@ Instead of only learning how to call a library or use a tool, I want to understa
 
 This repository is a record of that process.
 
+## Progress
+
+### Version 0.1 - Single Neuron
+
+Built a simple neural network from scratch using Python.
+
+The first model learned the relationship:
+
+y = 2x
+
+Concepts learned:
+
+- Variables and functions in Python
+- Model predictions
+- Weights
+- Bias
+- Loss calculation
+- Training loops
+- Epochs
+- Gradient-based learning
+
+The goal was not just to make a prediction, but to understand how a model adjusts itself through error reduction.
+
+---
+
+## Learning Approach
+
+This project focuses on understanding AI foundations from the bottom up.
+
+Instead of starting with large AI libraries, concepts are introduced by building simple systems first and gradually increasing complexity.
+
+Future topics:
+
+- Multiple neurons
+- Multiple inputs
+- Bias adjustment
+- Activation functions
+- Backpropagation
+- PyTorch
+- Machine learning projects
