@@ -65,6 +65,31 @@ Eventually build:
 
 ---
 
+# Learning Timeline
+
+## Completed
+
+✅ Environment setup  
+✅ Git/GitHub workflow  
+✅ First Python experiments  
+✅ Single neuron prediction  
+✅ Weight and bias  
+✅ Loss calculation  
+✅ Gradient descent basics  
+✅ Training loop  
+
+## Current
+
+🔄 Multiple input training examples
+
+## Future
+
+- Neural networks
+- PyTorch models
+- Computer vision
+- Natural language processing
+- AI agents
+
 # Current Progress
 
 ## Version 0.1 - Environment Setup

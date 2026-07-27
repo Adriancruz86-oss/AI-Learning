@@ -32,7 +32,7 @@ This prevents package conflicts and allows the project dependencies to be manage
 
 Create the environment:
 
-```bash
+
 python3 -m venv ai-learning
 Activate the environment:
 source ai-learning/bin/activate
