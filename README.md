@@ -4,7 +4,7 @@
 
 This repository documents my journey learning artificial intelligence, machine learning, and software development from the ground up.
 
-The goal is not just to learn how to use AI tools, but to understand the concepts behind them:
+The goal is not just to use AI tools, but to understand the systems behind them:
 
 - How computers process information
 - How programming languages work
@@ -13,31 +13,50 @@ The goal is not just to learn how to use AI tools, but to understand the concept
 - How machine learning models recognize patterns
 - How AI systems are designed, trained, and improved
 
-This repository serves as a timeline of my progress, experiments, code versions, and lessons learned.
+This repository serves as a timeline of experiments, projects, lessons learned, and progress.
 
 ---
 
-# Learning Philosophy
+# Learning Goals
 
-The goal is to understand the "why" behind the technology.
+## Foundations
 
-Instead of only learning how to use libraries or tools, this project focuses on understanding the systems underneath:
+Build a strong understanding of:
 
-- Why algorithms work
-- Why models learn
-- How data becomes information
-- How software interacts with hardware
-- How simple concepts build into complex AI systems
+- Computer hardware
+- Operating systems
+- Memory and processing
+- Binary and data representation
+- Programming fundamentals
+- Algorithms and problem solving
 
-The approach:
+## Software Development
 
-**Understand the fundamentals first. Build second. Use frameworks later.**
+Learn and practice:
+
+- Python
+- Git and GitHub
+- Development environments
+- Version control
+- Writing clean, maintainable code
+
+## Machine Learning and AI
+
+Understand:
+
+- Neural networks
+- Training and inference
+- Loss functions
+- Gradient descent
+- Backpropagation
+- Optimization
+- Model evaluation
+- Pattern recognition
+- Generalization
 
 ---
 
-# Current Stack
-
-Development environment:
+# Current Technology Stack
 
 - Python 3.12
 - PyTorch
@@ -47,22 +66,21 @@ Development environment:
 
 ---
 
-# Repository Structure
+# Learning Timeline
 
-```
-AI-Learning/
+## Completed
 
-├── code/
-│   └── Python experiments and AI implementations
-│
-├── lessons/
-│   └── Concept explanations and learning notes
-│
-├── docs/
-│   └── Setup guides and references
-│
-└── README.md
-```
+✅ Environment setup  
+✅ Git/GitHub workflow  
+✅ Python fundamentals  
+✅ Single neuron prediction  
+✅ Multiple input neuron  
+✅ Weights and bias  
+✅ Loss calculation  
+✅ Gradient calculation  
+✅ Gradient descent basics  
+✅ Batch gradient descent  
+✅ Model training loop  
 
 ---
 
@@ -72,132 +90,167 @@ AI-Learning/
 
 Completed:
 
-✅ Created GitHub repository  
-✅ Learned basic Git workflow  
-✅ Created first commits and pushes  
-✅ Installed development tools  
-✅ Configured Python development environment  
-✅ Learned the difference between system Python and project Python  
-✅ Created isolated Python virtual environments  
-✅ Installed AI development tools  
-
-Concepts learned:
-
-- Development environments
-- Virtual environments
-- Package management
-- Version control
-- Project organization
+- Created GitHub repository
+- Learned basic Git workflow
+- Created commits and pushes
+- Installed development tools
+- Configured Python environment
+- Learned the difference between system Python and virtual environments
+- Created isolated project environments
+- Installed machine learning tools
 
 ---
 
-## Version 0.2 - Single Neuron Model
+# Version 0.2 - Single Neuron
 
-Built a simple neuron model from scratch using Python.
+Built a simple neural network from scratch using Python.
 
 The first model learned the relationship:
 
-```
 y = 2x
-```
-
-The purpose was not just to make predictions, but to understand how a model improves through error reduction.
 
 Concepts learned:
 
-- Python variables
-- Functions
-- Model predictions
-- Inputs and outputs
+- Variables and functions
+- Predictions
 - Weights
 - Bias
-- Loss calculation
-- Epochs
+- Error calculation
+- Loss functions
 - Training loops
-- Gradient-based learning
+- Epochs
+- Parameter adjustment
 
-The model learned by adjusting parameters until the prediction moved closer to the target.
-
----
-
-# Current Learning Stage
-
-## Multiple Input Training Examples
-
-Next step:
-
-🔄 Teaching the model using multiple examples instead of a single input/output pair.
-
-This introduces:
-
-- Datasets
-- Multiple training samples
-- Average loss
-- Pattern recognition
-- Model generalization
+The goal was understanding how a model learns from mistakes instead of only creating predictions.
 
 ---
 
-# Future Learning Goals
+# Version 0.3 - Multiple Examples
 
-## Machine Learning Foundations
+Expanded the neuron to learn from multiple training examples.
 
-Future topics:
+Introduced:
 
-- Multiple neurons
-- Multiple inputs
+- Training datasets
+- Multiple examples
+- Comparing predictions against targets
+- Accumulating loss
+- Understanding model improvement over time
+
+The model began learning patterns from data instead of a single relationship.
+
+---
+
+# Version 0.4 - Multiple Inputs
+
+Expanded the neuron to accept multiple inputs.
+
+The model structure became:
+
+prediction =
+(input1 × weight1)
++
+(input2 × weight2)
++
+bias
+
+Concepts learned:
+
+- Multiple weights
+- Feature importance
+- How inputs influence predictions
+- How gradients change based on input size
+- Why larger inputs can create larger updates
+
+---
+
+# Version 0.5 - Batch Gradient Descent
+
+Implemented batch gradient descent manually.
+
+Instead of updating after every example:
+
+Example
+↓
+Update
+Example
+↓
+Update
+
+The model now:
+
+Example
+↓
+Calculate gradient
+Example
+↓
+Calculate gradient
+Example
+↓
+Calculate gradient
+Average gradients
+↓
+Update model
+
+Concepts learned:
+
+- Gradient accumulation
+- Gradient averaging
+- Stable training updates
+- Difference between weights and gradients
+- Debugging machine learning logic
+
+---
+
+# Learning Philosophy
+
+The goal is to understand the "why" behind technology.
+
+Instead of only learning how to use libraries, I want to understand the systems underneath:
+
+- Why algorithms work
+- Why models learn
+- How data becomes information
+- How software interacts with hardware
+- How intelligence can emerge from simple mathematical systems
+
+---
+
+# Future Goals
+
+Continue building toward:
+
 - Activation functions
-- Backpropagation
-- Optimization
-- Model evaluation
-- Generalization
-
----
-
-## AI Development
-
-Eventually explore:
-
+- Neural networks
 - PyTorch models
 - Computer vision
 - Natural language processing
 - AI agents
-- Custom machine learning projects
-- Automation systems
-- Security-focused AI applications
+- Automation tools
+- Security-related AI applications
 
 ---
 
-# Learning Timeline
+# Learning Approach
 
-## Completed
+This project follows a bottom-up approach.
 
-✅ Environment setup  
-✅ Git/GitHub workflow  
-✅ Python development setup  
-✅ First AI experiments  
-✅ Single neuron model  
-✅ Weight adjustment  
-✅ Bias adjustment  
-✅ Loss calculation  
-✅ Gradient descent basics  
-✅ Training loop implementation  
+Instead of starting with large AI frameworks, concepts are built manually first.
 
----
+The progression:
 
-## Current
+Python
+  ↓
+Simple calculations
+  ↓
+Single neuron
+  ↓
+Multiple inputs
+  ↓
+Gradient descent
+  ↓
+Neural networks
+  ↓
+Deep learning systems
 
-🔄 Multiple training examples  
-🔄 Understanding datasets  
-🔄 Improving model learning ability  
-
----
-
-# Why This Repository Exists
-
-This project is a record of learning through building.
-
-Each version represents another step in understanding how software and artificial intelligence systems work, starting with basic programming concepts 
-and gradually moving toward more advanced machine learning systems.
-
-The goal is not just to create AI applications, but to understand the foundations that make them possible.
+The goal is not just to build AI systems, but to understand how they work.
