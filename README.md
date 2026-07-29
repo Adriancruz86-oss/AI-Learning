@@ -2,255 +2,264 @@
 
 ## Purpose
 
-This repository documents my journey learning artificial intelligence, machine learning, and software development from the ground up.
+This repository documents my bottom-up journey through computer science, artificial intelligence, networking, and cybersecurity.
 
-The goal is not just to use AI tools, but to understand the systems behind them:
+The goal is not just to use tools or memorize definitions. I want to understand how systems work underneath:
 
-- How computers process information
-- How programming languages work
-- How algorithms solve problems
+- How computers process instructions
+- How software interacts with hardware
 - How neural networks learn
-- How machine learning models recognize patterns
-- How AI systems are designed, trained, and improved
+- How networks move data
+- How attacks progress through systems
+- How cryptography protects information
+- How AI and cybersecurity can work together
 
-This repository serves as a timeline of experiments, projects, lessons learned, and progress.
+This repository serves as a timeline of lessons, experiments, code, projects, and technical growth.
 
 ---
 
-# Learning Goals
+## Current Direction
 
-## Foundations
+My current focus combines two tracks:
 
-Build a strong understanding of:
-
-- Computer hardware
-- Operating systems
-- Memory and processing
-- Binary and data representation
-- Programming fundamentals
-- Algorithms and problem solving
-
-## Software Development
-
-Learn and practice:
+### Artificial Intelligence
 
 - Python
-- Git and GitHub
-- Development environments
-- Version control
-- Writing clean, maintainable code
-
-## Machine Learning and AI
-
-Understand:
-
 - Neural networks
-- Training and inference
-- Loss functions
 - Gradient descent
 - Backpropagation
-- Optimization
-- Model evaluation
+- PyTorch
 - Pattern recognition
-- Generalization
+- Model training
+- AI system design
+
+### Cybersecurity
+
+- Computer hardware and operating systems
+- Networking fundamentals
+- Security attack lifecycle
+- Cryptography
+- Quantum-safe cryptography
+- Security+ preparation
+- Network+ foundations
+- Future penetration-testing skills
+
+The long-term goal is to build strong technical foundations and create security-focused projects that demonstrate practical 
+ability.
 
 ---
 
-# Current Technology Stack
+## Learning Philosophy
+
+This project follows a bottom-up approach.
+
+Instead of starting with large frameworks or memorizing answers, I build concepts from their smallest understandable parts.
+
+```text
+Binary and hardware
+        ↓
+CPU and memory
+        ↓
+Programming logic
+        ↓
+Neurons and machine learning
+        ↓
+Networks and operating systems
+        ↓
+Cybersecurity and cryptography
+        ↓
+AI security projects
+```
+
+The goal is to understand the “why,” not only the “how.”
+
+---
+
+## Repository Structure
+
+```text
+AI-Learning/
+├── code/          Python implementations and exercises
+├── docs/          Documentation and reference material
+├── experiments/   Models, tests, and exploratory work
+├── lessons/       Written lesson notes and concept breakdowns
+├── README.md      Main project overview
+└── requirements.txt
+```
+
+See the complete lesson index here:
+
+[View all lessons](lessons/README.md)
+
+---
+
+## Current Technology Stack
 
 - Python 3.12
 - PyTorch
 - NumPy
+- Pandas
+- Matplotlib
 - Jupyter
-- Git/GitHub
+- Git
+- GitHub
+- macOS
+- Terminal
 
 ---
 
-# Learning Timeline
+## Completed Foundations
 
-## Completed
+### Development Environment
 
-✅ Environment setup  
-✅ Git/GitHub workflow  
-✅ Python fundamentals  
-✅ Single neuron prediction  
-✅ Multiple input neuron  
-✅ Weights and bias  
-✅ Loss calculation  
-✅ Gradient calculation  
-✅ Gradient descent basics  
-✅ Batch gradient descent  
-✅ Model training loop  
+- Created and managed Python virtual environments
+- Installed Python development and machine-learning tools
+- Learned basic Terminal navigation
+- Learned Git and GitHub workflows
+- Created commits, rebased changes, and pushed updates
+- Organized a growing technical repository
+
+### Machine Learning
+
+- Built a single neuron from scratch
+- Worked with weights and bias
+- Calculated prediction error and loss
+- Implemented gradient descent
+- Trained with multiple examples
+- Added multiple inputs
+- Learned batch gradient descent
+- Built training loops
+- Explored activation functions
+- Studied backpropagation and autograd
+- Built simple multilayer models
+- Explored reinforcement learning and curiosity
+
+### Computer Foundations
+
+- Binary representation
+- Transistors and logic gates
+- Registers
+- RAM
+- CPU instruction cycles
+- Fetch, decode, execute
+- Assembly language
+- Machine code
+- Data, address, and control buses
+
+### Networking and Cybersecurity
+
+- IP addresses
+- Subnet masks
+- Default gateways
+- DNS
+- MAC addresses
+- Payloads
+- Persistence
+- Lateral movement
+- Attack flow
+- Symmetric encryption
+- Asymmetric encryption
+- Hashing
+- Digital signatures
+- Public key infrastructure
+- Quantum-safe cryptography
+- Crypto agility
 
 ---
 
-# Current Progress
+## Current Certification Direction
 
-## Version 0.1 - Environment Setup
+Current study and reinforcement includes:
 
-Completed:
+- CompTIA A+
+- CompTIA Network+
+- CompTIA Security+
+- Future CCNA study
+- Long-term penetration-testing development
 
-- Created GitHub repository
-- Learned basic Git workflow
-- Created commits and pushes
-- Installed development tools
-- Configured Python environment
-- Learned the difference between system Python and virtual environments
-- Created isolated project environments
-- Installed machine learning tools
+Security+ concepts are reinforced throughout the lessons whenever they connect naturally to the topic.
 
 ---
 
-# Version 0.2 - Single Neuron
+## Projects
 
-Built a simple neural network from scratch using Python.
+### AI Learning Experiments
 
-The first model learned the relationship:
+Small projects built to understand:
 
-y = 2x
-
-Concepts learned:
-
-- Variables and functions
-- Predictions
-- Weights
-- Bias
-- Error calculation
+- Neurons
 - Loss functions
-- Training loops
-- Epochs
-- Parameter adjustment
+- Gradient descent
+- Classification
+- Memory
+- Curiosity
+- Pattern learning
+- Anomaly detection
 
-The goal was understanding how a model learns from mistakes instead of only creating predictions.
+### CyberTrail
 
----
+CyberTrail is a separate cybersecurity product project focused on security evidence, activity tracking, readiness, and 
+operational documentation.
 
-# Version 0.3 - Multiple Examples
-
-Expanded the neuron to learn from multiple training examples.
-
-Introduced:
-
-- Training datasets
-- Multiple examples
-- Comparing predictions against targets
-- Accumulating loss
-- Understanding model improvement over time
-
-The model began learning patterns from data instead of a single relationship.
+The product is maintained in its own private GitHub repository.
 
 ---
 
-# Version 0.4 - Multiple Inputs
+## Current Milestone
 
-Expanded the neuron to accept multiple inputs.
+### Version 0.6 — AI and Cybersecurity Foundations
 
-The model structure became:
+This milestone expands the repository beyond machine learning into broader computer and security foundations.
 
-prediction =
-(input1 × weight1)
-+
-(input2 × weight2)
-+
-bias
+Completed work includes:
 
-Concepts learned:
-
-- Multiple weights
-- Feature importance
-- How inputs influence predictions
-- How gradients change based on input size
-- Why larger inputs can create larger updates
+- Neural-network fundamentals
+- Gradient descent
+- CPU and machine-code flow
+- Networking fundamentals
+- Security attack lifecycle
+- Cryptography fundamentals
+- Quantum-safe cryptography
+- Structured lesson documentation
 
 ---
 
-# Version 0.5 - Batch Gradient Descent
+## Near-Term Roadmap
 
-Implemented batch gradient descent manually.
+Next areas of focus:
 
-Instead of updating after every example:
-
-Example
-↓
-Update
-Example
-↓
-Update
-
-The model now:
-
-Example
-↓
-Calculate gradient
-Example
-↓
-Calculate gradient
-Example
-↓
-Calculate gradient
-Average gradients
-↓
-Update model
-
-Concepts learned:
-
-- Gradient accumulation
-- Gradient averaging
-- Stable training updates
-- Difference between weights and gradients
-- Debugging machine learning logic
+- Operating-system fundamentals
+- Processes, threads, and services
+- Memory and storage security
+- TCP and UDP
+- Ports and protocols
+- Network segmentation
+- Authentication and authorization
+- Identity and access management
+- Vulnerability management
+- Incident response
+- Security monitoring
+- Practical Python security tools
+- Small portfolio projects
+- Continued Security+ preparation
 
 ---
 
-# Learning Philosophy
+## Long-Term Goals
 
-The goal is to understand the "why" behind technology.
-
-Instead of only learning how to use libraries, I want to understand the systems underneath:
-
-- Why algorithms work
-- Why models learn
-- How data becomes information
-- How software interacts with hardware
-- How intelligence can emerge from simple mathematical systems
-
----
-
-# Future Goals
-
-Continue building toward:
-
-- Activation functions
-- Neural networks
-- PyTorch models
-- Computer vision
-- Natural language processing
-- AI agents
-- Automation tools
-- Security-related AI applications
+- Earn an entry-level cybersecurity role
+- Build strong networking and security foundations
+- Complete Security+ and related certifications
+- Develop practical security projects
+- Learn penetration testing responsibly
+- Build one major long-term portfolio project
+- Explore AI security and secure AI systems
+- Document the entire learning journey over time
 
 ---
 
-# Learning Approach
+## Key Principle
 
-This project follows a bottom-up approach.
+The goal is not to rush through lessons.
 
-Instead of starting with large AI frameworks, concepts are built manually first.
-
-The progression:
-
-Python
-  ↓
-Simple calculations
-  ↓
-Single neuron
-  ↓
-Multiple inputs
-  ↓
-Gradient descent
-  ↓
-Neural networks
-  ↓
-Deep learning systems
-
-The goal is not just to build AI systems, but to understand how they work.
+The goal is to build a foundation strong enough that advanced concepts feel like logical extensions of what came before.
