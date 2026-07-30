@@ -18,6 +18,8 @@ cryptography.
 22. [Lesson 022: Security Attack Lifecycle](lesson_022_security_attack_lifecycle.md)
 23. [Lesson 023: Cryptography Fundamentals](lesson_023_cryptography_fundamentals.md)
 24. [Lesson 024: Quantum-Safe Cryptography](lesson_024_quantum_safe_cryptography.md)
+25. [Lesson 025: Processes, Services, Permissions, and Persistence](lesson_025_processes_services_permissions_persistence.md)
+
 ## Learning Direction
 
 The repository follows a bottom-up approach:
