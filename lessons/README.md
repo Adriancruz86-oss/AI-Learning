@@ -13,12 +13,11 @@ cryptography.
 
 ## Computer and Security Foundations
 
-6. [Lesson 006: Security Attack Lifecycle](lesson_006_security_attack_lifecycle.md)
-7. [Lesson 007: Networking Fundamentals](lesson_007_networking_fundamentals.md)
-8. [Lesson 008: CPU and Machine-Code Flow](lesson_008_cpu_machine_code_flow.md)
-9. [Lesson 009: Quantum-Safe Cryptography](lesson_009_quantum_safe_cryptography.md)
-10. [Lesson 010: Cryptography Fundamentals](lesson_010_cryptography_fundamentals.md)
-
+20. [Lesson 020: CPU and Machine-Code Flow](lesson_020_cpu_machine_code_flow.md)
+21. [Lesson 021: Networking Fundamentals](lesson_021_networking_fundamentals.md)
+22. [Lesson 022: Security Attack Lifecycle](lesson_022_security_attack_lifecycle.md)
+23. [Lesson 023: Cryptography Fundamentals](lesson_023_cryptography_fundamentals.md)
+24. [Lesson 024: Quantum-Safe Cryptography](lesson_024_quantum_safe_cryptography.md)
 ## Learning Direction
 
 The repository follows a bottom-up approach:
