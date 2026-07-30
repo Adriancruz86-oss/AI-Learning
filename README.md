@@ -44,8 +44,7 @@ My current focus combines two tracks:
 - Network+ foundations
 - Future penetration-testing skills
 
-The long-term goal is to build strong technical foundations and create security-focused projects that demonstrate practical 
-ability.
+The long-term goal is to build strong technical foundations and create security-focused projects that demonstrate practical ability.
 
 ---
 
@@ -80,7 +79,7 @@ The goal is to understand the “why,” not only the “how.”
 ```text
 AI-Learning/
 ├── code/          Python implementations and exercises
-├── docs/          Documentation and reference material
+├── docs/          Documentation, project case studies, and reference material
 ├── experiments/   Models, tests, and exploratory work
 ├── lessons/       Written lesson notes and concept breakdowns
 ├── README.md      Main project overview
@@ -118,6 +117,7 @@ See the complete lesson index here:
 - Learned Git and GitHub workflows
 - Created commits, rebased changes, and pushed updates
 - Organized a growing technical repository
+- Packaged and documented a private cybersecurity product for external review
 
 ### Machine Learning
 
@@ -196,12 +196,34 @@ Small projects built to understand:
 - Pattern learning
 - Anomaly detection
 
-### CyberTrail
+### CyberTrail — Security Evidence and Activity Tracker
 
-CyberTrail is a separate cybersecurity product project focused on security evidence, activity tracking, readiness, and 
-operational documentation.
+CyberTrail is my first substantial cybersecurity product project. It is a spreadsheet-based operational tracker designed for small organizations that need structure before they are ready for a full governance, risk, and compliance platform.
 
-The product is maintained in its own private GitHub repository.
+The v0.1 technical-review build tracks:
+
+- Security controls and owners
+- Evidence and refresh dates
+- Routine security activity
+- Access reviews
+- Vulnerability remediation
+- Vendor-security reviews
+- Incidents and response timelines
+- Monthly management reporting
+
+Current status:
+
+- The product is stored in its own private GitHub repository
+- The workbook contains 12 tabs
+- All seven built-in formula tests pass
+- Demonstration data is fictional
+- No obvious credentials or real customer data were identified during packaging
+- A cybersecurity professional has been invited to review it
+- A focused v0.2 beta roadmap is open
+
+The current leading target user for v0.2 is an independent IT provider or small managed service provider.
+
+[Read the full CyberTrail portfolio case study](docs/projects/CYBERTRAIL.md)
 
 ---
 
@@ -221,6 +243,8 @@ Completed work includes:
 - Cryptography fundamentals
 - Quantum-safe cryptography
 - Structured lesson documentation
+- First substantial cybersecurity product packaged for technical review
+- Product documentation, safety boundaries, versioning, and GitHub organization
 
 ---
 
@@ -230,6 +254,7 @@ Next areas of focus:
 
 - Operating-system fundamentals
 - Processes, threads, and services
+- Permissions, privilege, and persistence
 - Memory and storage security
 - TCP and UDP
 - Ports and protocols
@@ -241,6 +266,7 @@ Next areas of focus:
 - Security monitoring
 - Practical Python security tools
 - Small portfolio projects
+- CyberTrail v0.2 improvements based on external feedback
 - Continued Security+ preparation
 
 ---
