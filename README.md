@@ -17,8 +17,9 @@ The focus is not on copying frameworks without understanding them. The goal is t
 - Multiple training examples
 - Gradient descent
 - Multiple inputs
+- Activation functions
 
-The structured written lessons currently end after gradient descent and the introduction of multiple inputs.
+The structured written lessons currently end with activation functions, including ReLU, Leaky ReLU, sigmoid, softmax, vanishing gradients, and dead ReLUs.
 
 [View the AI lesson index](lessons/README.md)
 
@@ -60,6 +61,9 @@ AI-Learning/
 - Implemented gradient descent
 - Expanded from one input to multiple inputs
 - Built training loops
+- Learned how ReLU, Leaky ReLU, sigmoid, and softmax transform neuron outputs
+- Connected sigmoid saturation to vanishing gradients and ReLU's negative side to dead neurons
+- Distinguished mutually exclusive softmax classes from overlapping sigmoid labels
 - Explored activation functions and multilayer models in experiments
 - Practiced backpropagation and autograd concepts
 - Explored curiosity, reinforcement learning, sequence learning, memory, and anomaly detection
@@ -67,8 +71,7 @@ AI-Learning/
 
 ## Next Structured Lessons
 
-- Activation functions
-- Hidden layers
+- Hidden layers and feature composition
 - Multilayer neural networks
 - Backpropagation
 - PyTorch fundamentals
