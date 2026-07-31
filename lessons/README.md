@@ -9,11 +9,12 @@ This folder contains only the structured artificial-intelligence and machine-lea
 3. [Lesson 003: Multiple Examples](lesson_003_multiple_examples.md)
 4. [Lesson 004: Gradient Descent](lesson_004_gradient_descent.md)
 5. [Lesson 005: Multiple Inputs Explained](lesson_005_multiple_inputs_explained.md)
+6. [Lesson 006: Activation Functions](lesson_006_activation_functions.md)
 
 ## Current Stopping Point
 
-The structured lesson sequence currently ends after gradient descent and the introduction of multiple inputs.
+The structured lesson sequence currently ends with activation functions: ReLU, Leaky ReLU, sigmoid, softmax, vanishing gradients, and dead ReLUs.
 
-Future lessons will continue through activation functions, hidden layers, backpropagation, PyTorch, and larger neural-network experiments.
+The next lesson will explain hidden layers and how several neurons detect and combine different features.
 
 Hardware, computing foundations, and the path from atoms to logic gates belong in the companion repository **Atom-to-Intelligence**. Cybersecurity product work belongs in its own project repository.
