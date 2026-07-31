@@ -22,6 +22,12 @@ The structured written lessons currently end after gradient descent and the intr
 
 [View the AI lesson index](lessons/README.md)
 
+## Supporting Foundations
+
+These notes reinforce the computer systems underneath future AI code without changing the numbered AI lesson sequence.
+
+- [CPU Instruction Flow: From Machine Code to Register Update](docs/foundations/cpu_instruction_flow.md)
+
 ## Repository Structure
 
 ```text
@@ -57,6 +63,7 @@ AI-Learning/
 - Explored activation functions and multilayer models in experiments
 - Practiced backpropagation and autograd concepts
 - Explored curiosity, reinforcement learning, sequence learning, memory, and anomaly detection
+- Traced a machine-code instruction through registers, buses, decoders, the ALU, and the fetch-decode-execute cycle
 
 ## Next Structured Lessons
 
