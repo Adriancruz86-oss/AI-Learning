@@ -10,11 +10,12 @@ This folder contains only the structured artificial-intelligence and machine-lea
 4. [Lesson 004: Gradient Descent](lesson_004_gradient_descent.md)
 5. [Lesson 005: Multiple Inputs Explained](lesson_005_multiple_inputs_explained.md)
 6. [Lesson 006: Activation Functions](lesson_006_activation_functions.md)
+7. [Lesson 007: Hidden Layers and Feature Composition](lesson_007_hidden_layers.md)
 
 ## Current Stopping Point
 
-The structured lesson sequence currently ends with activation functions: ReLU, Leaky ReLU, sigmoid, softmax, vanishing gradients, and dead ReLUs.
+The structured lesson sequence currently ends with hidden layers and feature composition: several neurons receive the same inputs, detect different patterns, and create an internal representation for the next layer.
 
-The next lesson will explain hidden layers and how several neurons detect and combine different features.
+The next lesson will organize these calculations into reusable layer objects and pass a batch of examples through a complete multilayer network.
 
 Hardware, computing foundations, and the path from atoms to logic gates belong in the companion repository **Atom-to-Intelligence**. Cybersecurity product work belongs in its own project repository.
